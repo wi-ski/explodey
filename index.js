@@ -19,11 +19,9 @@ const buildExplodey = function(_namespace, _obj = {}) {
         return () => target;
       }
       throw new Error(
-        `${JSON.stringify(namespace)} prop: [${String(
+        `Explodey! ${JSON.stringify(namespace)} prop: [${String(
           property
-        )}] is not defined. I just saved you one headache. JSON for target: ${JSON.stringify(
-          target
-        )}`
+        )}] is not defined. JSON for target: ${JSON.stringify(target)}`
       );
     }
   };
