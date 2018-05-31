@@ -1,4 +1,5 @@
 # Explodey
+
 A utility that disallows accessing undefined properties on objects.
 
 ```javascript
@@ -8,23 +9,24 @@ const foo = explodey({
   c: true
 });
 
-foo.a // => true
-foo.z // => throws Error!
+foo.a; // => true
+foo.z; // => throws Error!
 
 const otherFoo = { ...foo };
 
-otherFoo.baz // => undefined
+otherFoo.baz; // => undefined
 
-JSON.stringify(foo) // => '{ "a": "true, "b": true, "c": true}'
+JSON.stringify(foo); // => '{ "a": "true, "b": true, "c": true}'
 ```
 
 ## Why?
 
 Because sometimes its nice to not have to worry about undefined references on things like:
-  * Constants
-  * Business critical values
-  * Stuff like that
+
+* Constants
+* Business critical values
+* Stuff like that
 
 ## What not just use the classical "getter" - like: `someObject.get("propertyThatGetsCheckedByHooks")` ?
 
-Because I feel that style is better for a situation where the hooks underneath the `.get()` are cover business-y logic situations and I want something else... something less.
+Because I feel that style is better for a situation where the hooks underneath the `.get()` cover business-y logic situations and I want something else... something less.
