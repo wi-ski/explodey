@@ -4,7 +4,7 @@
 
 A utility that disallows accessing undefined properties on object.
 
-## What?
+## Why?
 
 Because sometimes its nice to not have to worry about undefined references on things like:
   * Constants
