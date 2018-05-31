@@ -11,7 +11,7 @@ const foo = explodey({
 foo.a // => true
 foo.z // => throws Error!
 
-otherFoo = { ...foo };
+const otherFoo = { ...foo };
 
 otherFoo.baz // => undefined
 
