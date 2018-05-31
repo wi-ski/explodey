@@ -1,7 +1,8 @@
 {
   "name": "explodey",
-  "version": "1.0.0",
-  "description": "Utility for disallowing/preventing accessing undefined properties on Javscript objects.",
+  "version": "1.0.1",
+  "description":
+    "Utility for disallowing/preventing accessing undefined properties on Javscript objects.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
