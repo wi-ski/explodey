@@ -22,14 +22,14 @@ const foo = explodey({
   c: true
 });
 
-foo.a #=> true
-foo.z #=> throws Error!
+foo.a # => true
+foo.z # => throws Error!
 
 otherFoo = { ...foo };
 
-expect(otherFoo.baz).toBe(undefined);
+otherFoo.baz # => undefined
 
-JSON.stringify(foo) => '{ "a": "true, "b": true, "c": true}'
+JSON.stringify(foo) # => '{ "a": "true, "b": true, "c": true}'
 
 ```
 
