@@ -1,3 +1,7 @@
+## What?
+
+A utility that disallows accessing undefined properties on object.
+
 # Explodey
 
 ```javascript
@@ -16,10 +20,6 @@ otherFoo.baz # => undefined
 
 JSON.stringify(foo) # => '{ "a": "true, "b": true, "c": true}'
 ```
-
-## What?
-
-A utility that disallows accessing undefined properties on object.
 
 ## Why?
 
