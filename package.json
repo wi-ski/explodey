@@ -1,0 +1,39 @@
+{
+  "name": "explodey",
+  "version": "1.0.0",
+  "description": "Utility for disallowing/preventing accessing undefined properties on Javscript objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-ski/explodey.git"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "access",
+    "prevent",
+    "disallow",
+    "error",
+    "exception",
+    "explode",
+    "errors",
+    "undefined",
+    "null",
+    "reference"
+  ],
+  "author": "wi-ski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi-ski/explodey/issues"
+  },
+  "homepage": "https://github.com/wi-ski/explodey#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "jest-cli": "^23.1.0"
+  },
+  "dependencies": {}
+}
