@@ -8,14 +8,14 @@ const foo = explodey({
   c: true
 });
 
-foo.a # => true
-foo.z # => throws Error!
+foo.a // => true
+foo.z // => throws Error!
 
 otherFoo = { ...foo };
 
-otherFoo.baz # => undefined
+otherFoo.baz // => undefined
 
-JSON.stringify(foo) # => '{ "a": "true, "b": true, "c": true}'
+JSON.stringify(foo) // => '{ "a": "true, "b": true, "c": true}'
 ```
 
 ## Why?
