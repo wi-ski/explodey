@@ -1,5 +1,5 @@
 # Explodey
-A utility that disallows accessing undefined properties on object.
+A utility that disallows accessing undefined properties on objects.
 
 ```javascript
 const foo = explodey({
