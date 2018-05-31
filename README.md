@@ -1,8 +1,5 @@
-## What?
-
-A utility that disallows accessing undefined properties on object.
-
 # Explodey
+A utility that disallows accessing undefined properties on object.
 
 ```javascript
 const foo = explodey({
