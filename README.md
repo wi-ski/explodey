@@ -11,7 +11,7 @@ Because sometimes its nice to not have to worry about undefined references on th
   * Business critical values
   * Stuff like that
 
-## What not just use the classical "getter" - like: `someObject.get("propertyThatGetsCheckByHooks")` ?
+## What not just use the classical "getter" - like: `someObject.get("propertyThatGetsCheckedByHooks")` ?
 
 Because I feel that style is better for a situation where the hooks underneath the `.get()` are cover business-y logic situations and I want something else... something less.
 
